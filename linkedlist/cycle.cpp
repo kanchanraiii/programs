@@ -53,7 +53,7 @@ int main(){
     seventh->next=nullptr;
 
     // Creating a cycle for testing
-    seventh->next=third; // Cycle created
+    seventh->next=third; 
 
     detectCycle(head);
 
